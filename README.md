@@ -9,7 +9,7 @@ Instructions are not very complete yet, I am working on those.
 ## Requirements and installation
 
 1. Raspberry PI + Raspbian OS
-1. Disable screen saver
+1. Disable screen saver for GUI
 1. Istall Python 3
 1. Provide fixed name for the USB port
 1. Connect Canoe Freestyle timer to the Raspberry Pi's USB port
@@ -17,7 +17,9 @@ Instructions are not very complete yet, I am working on those.
 
 ## How to disable screen saver
 
-Original instrucation at https://www.geeks3d.com/hacklab/20160108/how-to-disable-the-blank-screen-on-raspberry-pi-raspbian/
+You need to disable screen saver to have green screen visible all the time.
+
+Original instruction at https://www.geeks3d.com/hacklab/20160108/how-to-disable-the-blank-screen-on-raspberry-pi-raspbian/
 
 You can disable the blank screen once with the following command line instructions:
 

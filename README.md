@@ -1,6 +1,6 @@
 # Green screen for Canoe freestyle timer
 
-This software provides green screen for the canoe freestyle timer (github.com/proalvo/canoe-freestyle-timer) to bed used for live video streaming.
+This Python based software provides a green screen for the canoe freestyle timer (github.com/proalvo/canoe-freestyle-timer) to be used for live video streaming.
 
 See the idea at Youtube: https://youtu.be/hxXWm2dkruE
 
@@ -10,7 +10,7 @@ Instructions are not very complete yet, I am working on those.
 
 1. Raspberry PI + Raspbian OS
 1. Disable screen saver for GUI
-1. Istall Python 3
+1. Install Python 3
 1. Provide fixed name for the USB port
 1. Connect Canoe Freestyle timer to the Raspberry Pi's USB port
 1. Copy the freestyle-timer-green-screen.py and run it
@@ -29,3 +29,11 @@ $ sudo xset -dpms
 $ sudo xset s noblank
 ``` 
 xset s off disable the screen saver, xset -dpms disables the DPMS (Display Power Management Signaling) and xset s noblank tells to X server to not blank the video device.
+
+## How to set fixed name for the USB port
+
+Raspberry PI will set a new port name for the USB every time you restart the Arduino UNO. Luckily there is a methods to set fixed name. See instructions at:
+
+https://www.domoticz.com/wiki/Assign_fixed_device_name_to_USB_port
+
+Note that the python script is using the port name: /dev/ttyUSB_GREENSCREEN

@@ -4,6 +4,8 @@ This software provides green screen for the canoe freestyle timer (github.com/pr
 
 See the idea at Youtube: https://youtu.be/hxXWm2dkruE
 
+Instructions are not very complete yet, I am working on those.
+
 ## Requirements and installation
 
 1. Raspberry PI + Raspbian OS
@@ -19,8 +21,9 @@ Original instrucation at https://www.geeks3d.com/hacklab/20160108/how-to-disable
 
 You can disable the blank screen once with the following command line instructions:
 
+```
 $ sudo xset s off
 $ sudo xset -dpms
 $ sudo xset s noblank
- 
+``` 
 xset s off disable the screen saver, xset -dpms disables the DPMS (Display Power Management Signaling) and xset s noblank tells to X server to not blank the video device.

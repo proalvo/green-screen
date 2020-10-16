@@ -6,6 +6,13 @@ See the idea at Youtube: https://youtu.be/hxXWm2dkruE
 
 Instructions are not very complete yet, I am working on those.
 
+## Author
+Kari Nykänen, k_nykanen (at) hotmail.com
+
+## License
+
+This software is licensed under GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007. Read the LICENSE file.
+
 ## Requirements and installation
 
 1. Raspberry PI + Raspbian OS
